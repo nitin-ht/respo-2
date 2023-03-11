@@ -1,0 +1,186 @@
+/* ==============================================================================
+         -----------------------  Header css  ------------------------
+   ==============================================================================  */
+
+
+.header {
+    width: 100%;
+
+}
+
+.header_toggle {
+    color: var(--first-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.header_toggle i {
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    transition: 0.5s;
+    color: var(--color-sidebar-menu);
+}
+
+.header_toggle i:hover {
+    background-color: #D8E2EF;
+    border-radius: 50%;
+}
+
+.search-bar i {
+    position: absolute;
+    top: 11px;
+    left: 15px;
+
+}
+
+::placeholder {
+    margin-left: 29px;
+}
+
+.search-bar input {
+    width: 336px;
+}
+
+.avater {
+    width: 2.1rem;
+    height: 2.1rem;
+}
+
+.notification-circle {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: -3px;
+    top: -8px;
+    background-color: #2C7BE5;
+    border-radius: 50%;
+    outline: 2px solid var(--bg-primary);
+
+}
+
+.notification .bxs-bell {
+    color: var(--color-sidebar-menu);
+
+
+}
+
+.search-bar input {
+    border: 1px solid #d8e2ef;
+}
+
+.grid-icon .bxs-grid {
+    color: var(--color-sidebar-menu) !important;
+
+}
+
+.padding-head {
+    padding: 8px 12px;
+}
+
+.logo h3 {
+    margin: 0 6px 0 40px;
+}
+
+/* ==============================================================================
+         -----------------------  sidebar nav css  ------------------------
+   ==============================================================================  */
+
+.active {
+    color: white;
+}
+
+.l-navbar {
+    height: calc(100vh - var(--nav-height));
+    width: var(--nav-width);
+    background-color: var(--first-color);
+    transition: .5s;
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden
+}
+
+.nav_logo,
+.nav_link {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    column-gap: 1rem;
+    padding: .5rem 0 .5rem 1.5rem
+}
+
+.nav_logo {
+    margin-bottom: 2rem
+}
+
+.nav_logo-icon {
+    font-size: 1.25rem;
+    color: var(--white-color)
+}
+
+.nav_logo-name {
+    color: var(--white-color);
+    font-weight: 700
+}
+
+.nav_link {
+    position: relative;
+    color: var(--color-sidebar-menu);
+    transition: 1s
+}
+
+.nav_link:hover {
+    color: black;
+}
+
+.nav_icon {
+    font-size: 1.25rem
+}
+
+@media screen and (min-width: 768px) {
+
+    .l-navbar {
+        padding: 1rem 1rem 0 0
+    }
+
+    .show-nav {
+        width: 184px;
+    }
+
+
+}
+
+.dash {
+    margin-left: -3px;
+}
+
+/* ==============================================================================
+         -----------------------  Dashboard Body css  ------------------------
+   ==============================================================================  */
+
+
+.dashboard-body {
+    height: calc(100vh - var(--nav-height));
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.dashboard-body::-webkit-scrollbar {
+    width: 5px;
+}
+
+.dashboard-body::-webkit-scrollbar-thumb {
+    padding: 0 10px !important;
+    border: 5px solid #d3d3d3;
+    border-radius: 50px;
+}
+
+.dashboard-body::-webkit-scrollbar-track {
+    background-color: #fff;
+}

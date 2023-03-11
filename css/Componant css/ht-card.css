@@ -1,0 +1,30 @@
+:root {
+    --ht-card-box-shadow: 0 7px 14px 0 rgba(65, 69, 88, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+    --ht-card-header-color: white;
+    --ht-card-body-color: #F9FAFD;
+    --ht-card-border-radius: 0.375rem;
+}
+
+
+
+
+.ht-card {
+    box-shadow: var(--ht-card-box-shadow);
+    border: none;
+    border-radius: var(--ht-card-border-radius);
+    background-color: white;
+
+}
+
+.ht-card-header {
+    background-color: var(--ht-card-header-color);
+    border-top-left-radius: var(--ht-card-border-radius);
+    border-top-right-radius: var(--ht-card-border-radius);
+}
+
+.ht-card-body {
+    background-color: var(--ht-card-body-color);
+    border-bottom-left-radius: var(--ht-card-border-radius);
+    border-bottom-right-radius: var(--ht-card-border-radius);
+
+}

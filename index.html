@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HT project</title>
+
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/custom.css">
+    <link rel="stylesheet" type="text/css" href="./css/Componant css/ht-buttom.css">
+    <link rel="stylesheet" type="text/css" href="./css/Componant css/ht-card.css">
+    <link rel="stylesheet" type="text/css" href="./css/Componant css/widgets.css">
+    <!-- icons cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <main class=" w-100 " id="body-pd">
+        <!-- header start -->
+        <div class="w-100 padding-head ">
+            <header class="header d-flex justify-content-between" id="header">
+                <div class="d-flex ">
+                    <div class="header_toggle my-auto">
+                        <i class='btn btn-lg bx bx-menu' id="header-toggle"></i>
+                    </div>
+                    <div class="logo  my-auto">
+                        <h3>Healthcare</h3>
+                    </div>
+                    <div class=" d-none d-md-block search-bar position-relative ms-5 my-auto">
+                        <input class=" text-14 rounded-pill  p-2 ps-5" type="text" placeholder="search">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+                <div class="d-flex me-3">
+                    <div class="notification pt-2 my-auto me-3 ">
+                        <span class="badge p-0 position-relative">
+                            <i class='text-20 bx bxs-bell'></i>
+                            <i class='notification-circle'></i>
+                        </span>
+                    </div>
+                    <div class="grid-icon my-auto me-3 pt-1">
+                        <i class=' text-22 bx bxs-grid'></i>
+                    </div>
+
+                    <div class="avater my-auto" role="button" id="dropdownprofile" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img class="rounded-circle w-100 h-100" src="./img/profile.jpg" alt="">
+                    </div>
+                    <div class="dropdown-menu ht-card mt-2 setting-menu" aria-labelledby="dropdownprofile">
+                        <a class="dropdown-item  text-14 fw-500" href="./Profile.html" target="_blank" >Profile & account</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-14 fw-500" href="reset_password.html" target="_blank">Reset Password</a>
+                        <a class="dropdown-item text-14 fw-500" href="#" target="_blank">Settings</a>
+                        <a class="dropdown-item text-14 fw-500" href="#" target="_blank">Logout</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- header End -->
+        <div class="d-flex w-100">
+            <!-- Sidebar start -->
+            <div class="sidebar d-none d-md-block ">
+                <div class="l-navbar" id="nav-bar">
+                    <nav class="nav">
+                        <div>
+                            <div class="nav_list">
+                                <a href="#" class="nav_link dash"> <i class="text-14 fa-solid fa-chart-pie"></i>
+                                    <span class="nav_name text-14 fw-500">Dashboard</span> </a>
+                                <a href="#" class="nav_link"> <i class="text-14 fa-solid fa-user"></i> <span
+                                        class="nav_name text-14 fw-500">User</span> </a>
+                                <a href="#" class="nav_link"> <i class="text-14 fa-solid fa-wallet"></i> <span
+                                        class="nav_name text-14 fw-500">Billings</span> </a>
+                                <a href="#" class="nav_link"> <i class="text-14 fa-solid fa-gear"></i> <span
+                                        class="nav_name text-14 fw-500">Settings</span> </a>
+
+                                <!-- <a class="nav_link" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                    aria-expanded="false" aria-controls="collapseExample"><i
+                                        class="text-14 fa-solid fa-calendar-days"></i><span
+                                        class="nav_name text-14 fw-500">Calender</span></a>
+
+                                <ul class="collapse list-style-unstyled" id="collapseExample">
+                                    <li class="list-unstyled text-13 ps-4">Anim</li>
+                                    <li class="list-unstyled text-13 ps-4">Anim</li>
+                                    <li class="list-unstyled text-13 ps-4">Anim</li>
+                                </ul> -->
+
+                            </div>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Sidebar End -->
+            <!-- Dashboard-body start -->
+            <div class="dashboard-body w-100 px-4 pt-3">
+                <div class="row row-cols-3 mb-3">
+                    <div class="col">
+                        <div>
+                            <div class="ht-card p-3 px-4">
+                                <h6 class="d-inline-block ">Users</h6>
+                                <span
+                                    class="ms-2 text-11 fw-600 rounded-pill w-pill-color-orange text-danger p-1 px-2">-0.23%</span>
+                                <h2 class="my-2 fw-400 w-color-orange">854</h2>
+                                <a class="text-14 fw-600 w-link-color" href="#">See all <i
+                                        class=" bi bi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <div class="ht-card p-3 px-4">
+                                <h6 class="d-inline-block ">Users</h6>
+                                <span
+                                    class="ms-2 text-11 fw-600 rounded-pill w-pill-color-sky-blue text-primary  p-1 px-2">-0.23%</span>
+                                <h2 class="my-2 fw-400 w-color-sky-blue">854</h2>
+                                <a class="text-14 fw-600 w-link-color" href="#">See all <i
+                                        class=" bi bi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <div class="ht-card p-3 px-4">
+                                <h6 class="d-inline-block ">Users</h6>
+                                <span
+                                    class="ms-2 text-11 fw-600 rounded-pill w-pill-color-green text-sucess p-1 px-2">-0.23%</span>
+                                <h2 class="my-2 fw-400 w-color-grey">854</h2>
+                                <a class="text-14 fw-600 w-link-color" href="#">See all <i
+                                        class=" bi bi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="ht-card p-3 px-4">
+                            <h6 class="d-inline-block ">Weekly Sales</h6>
+                            <h2 class="my-2 fw-400 w-color-grey">$854</h2>
+                            <span
+                                class="ms-2 text-11 fw-600 rounded-pill w-pill-color-green text-sucess p-1 px-2">-0.23%</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="ht-card p-3 px-4">
+                            <h6 class="d-inline-block ">Total Order</h6>
+                            <h2 class="my-2 fw-400 w-color-grey">$854</h2>
+                            <span
+                                class="ms-2 text-11 fw-600 rounded-pill w-pill-color-green text-sucess p-1 px-2">-0.23%</span>
+                        </div>
+                    </div>
+                </div>
+                <footer class="mt-5">
+                    <p class="text-14 fw-300">2022 © - All Right Reserved</p>
+                </footer>
+
+                <!-- Dashboard-body End -->
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- javascript main -->
+    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+
+</html>

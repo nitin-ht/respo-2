@@ -1,0 +1,118 @@
+:root {
+
+    /* Theme colors */
+
+    --text-primary: #E6EEF8;
+    --bg-primary: #E6EEF8;
+    --badge-color: rgb(57, 199, 14);
+    --bg-sidebar: #EDF2F9;
+    --color-sidebar-menu: #5e6e82;
+    --heading-text-colors: #344050;
+
+
+    /* Background Gradient */
+
+    --bg-success: #15D585;
+    --bg-info: #2FBFFD;
+    --bg-warning: #F5884A;
+    --bg-danger: #E94C68;
+
+
+    /* sidebar */
+
+    --nav-width: 68px;
+    --nav-height: 56px;
+
+
+
+
+
+}
+
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+body {
+    background-color: var(--bg-primary);
+}
+
+.text-11 {
+    font-size: 0.6875rem;
+}
+
+.text-12 {
+    font-size: 0.75rem;
+}
+
+.text-13 {
+    font-size: 0.8125rem;
+}
+
+.text-14 {
+    font-size: 0.875rem;
+}
+
+.text-16 {
+    font-size: 1rem;
+}
+
+.text-18 {
+    font-size: 1.125rem;
+}
+
+.text-20 {
+    font-size: 1.25rem;
+}
+
+.text-22 {
+    font-size: 1.375rem;
+}
+
+.text-24 {
+    font-size: 1.5rem;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: var(--heading-text-colors);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--heading-text-colors);
+
+}

@@ -1,0 +1,40 @@
+:root {
+    --ht-form-label-color: #5e6e82;
+    --ht-form-color: white;
+    --ht-form-border: 1px solid #d8e2ef;
+    --ht-form-placeholder-color: #d8e2ef;
+
+}
+
+.ht-form-label {
+    margin-bottom: .5rem;
+    font-size: 0.875rem;
+    color: var(--ht-form-label-color);
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.ht-form-control,
+.ht-form-select {
+    width: 100%;
+    display: block;
+    padding: .3125rem 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    background-color: var(--ht-form-color);
+    border-radius: .25rem;
+    border: var(--ht-form-border);
+}
+
+input::placeholder {
+    color: var(--ht-form-placeholder-color)
+}
+
+input:focus,
+.active,
+.active-within {
+    outline: none;
+    border: var(--ht-form-border) !important;
+
+}

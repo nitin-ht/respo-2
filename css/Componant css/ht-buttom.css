@@ -1,0 +1,52 @@
+:root {
+    /* Ht button */
+
+    --ht-btn-primary-color: #2c7be5;
+    --ht-btn-hover-color: #2569C3;
+    --ht-btn-border-color: #2c7be5;
+    --ht-btn-text-color: white;
+}
+
+
+.ht-btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border-color: var(--ht-btn-border-color);
+    background-color: var(--ht-btn-primary-color);
+    color: var(--ht-btn-text-color);
+    box-shadow: none !important;
+
+}
+
+.ht-btn-sm {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.2rem;
+    border-color: var(--ht-btn-border-color);
+    background-color: var(--ht-btn-primary-color);
+    box-shadow: none !important;
+
+}
+
+.ht-btn-lg {
+    display: inline-block;
+    padding: 0.8rem 1.3rem;
+    font-size: 1.75rem;
+    border-radius: 0.3rem;
+    border-color: var(--ht-btn-border-color);
+    background-color: var(--ht-btn-primary-color);
+    box-shadow: none !important;
+
+
+}
+
+.ht-btn,
+.ht-btn-sm,
+.ht-btn-md,
+.ht-btn-lg,
+:active {
+    border: none;
+}

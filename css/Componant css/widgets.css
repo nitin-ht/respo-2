@@ -1,0 +1,42 @@
+:root {
+
+    /* widgets colors */
+
+    --w-pill-color-orange: #FDE6D8;
+    --w-pill-color-sky-blue: #D4F2FF;
+    --w-pill-color-green: #CCF6E4;
+    --w-color-orange: #f5803e;
+    --w-color-sky-blue: #27bcfd;
+    --w-color-grey: #5e6e82;
+    --w-link-color: #2c7be5;
+}
+
+.w-pill-color-orange {
+    background-color: #FDE6D8;
+
+}
+
+.w-pill-color-sky-blue {
+    background-color: #D4F2FF;
+}
+
+.w-pill-color-green {
+    background-color: #CCF6E4;
+
+}
+
+.w-color-orange {
+    color: #f5803e;
+}
+
+.w-color-sky-blue {
+    color: #27bcfd;
+}
+
+.w-color-grey {
+    color: #5e6e82;
+}
+
+.w-link-color {
+    color: #2c7be5;
+}
